@@ -1,0 +1,17 @@
+# Working log — contains real account IDs, ARNs, and group IDs.
+# Keep local; the README carries the public-facing version.
+PROGRESS_LOG.md
+
+# Real account IDs, ARNs and group IDs. config.env.example is the committed template.
+scripts/config.env
+
+# Never commit credentials
+*.csv
+credentials
+*.pem
+*.key
+.aws/
+
+# OS noise
+.DS_Store
+docs/LINKEDIN_POST_DRAFT.md
