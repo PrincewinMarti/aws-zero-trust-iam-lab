@@ -4,7 +4,7 @@ A multi-account AWS environment built to demonstrate Zero Trust identity and acc
 
 Built by **Princewin Marti** — Master of IT (Cybersecurity), Macquarie University.
 
-> **Status:** Phase 1 of 5 complete. This README is updated as each phase lands.
+> **Status:** Phases 1 and 2 of 5 complete. This README is updated as each phase lands.
 
 ---
 
@@ -241,4 +241,6 @@ AWS Config and GuardDuty in Phase 4 are the only services with meaningful cost �
 
 ## Notes
 
-The account IDs shown in this repository are redacted. Real identifiers are kept in a local working log that is not committed.
+Account IDs, ARNs and group IDs are redacted throughout. Nothing in this repository identifies the real environment — every environment-specific value lives in `scripts/config.env`, which is gitignored and never committed.
+
+Account IDs are not secrets in the strict sense, but a confirmed, valid one is a usable starting point for role enumeration. Redacting them costs nothing.
